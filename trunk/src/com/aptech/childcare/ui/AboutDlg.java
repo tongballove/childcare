@@ -31,19 +31,131 @@ public class AboutDlg extends javax.swing.JDialog {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
+        java.awt.GridBagConstraints gridBagConstraints;
+
+        pnlContainer = new javax.swing.JPanel();
+        pnlSystem = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        pnlInformation = new javax.swing.JPanel();
+        lblCopyright = new javax.swing.JLabel();
+        lblMadeBy = new javax.swing.JLabel();
+        pnlMember = new javax.swing.JPanel();
+        lblTeam = new javax.swing.JLabel();
+        lblMember1 = new javax.swing.JLabel();
+        lblMember2 = new javax.swing.JLabel();
+        lblMember3 = new javax.swing.JLabel();
+        lblMember4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        pnlContainer.setLayout(new java.awt.GridBagLayout());
+
+        pnlSystem.setLayout(new java.awt.GridBagLayout());
+
+        jLabel1.setText("ChildCare Management System");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 0, 20);
+        pnlSystem.add(jLabel1, gridBagConstraints);
+
+        jLabel2.setText("Version : 1.0.0");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
+        pnlSystem.add(jLabel2, gridBagConstraints);
+
+        jLabel3.setText("Logo");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.gridheight = 2;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        pnlSystem.add(jLabel3, gridBagConstraints);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 20, 0);
+        pnlContainer.add(pnlSystem, gridBagConstraints);
+
+        pnlInformation.setLayout(new java.awt.GridBagLayout());
+
+        lblCopyright.setText("Copyright @ 2010 Hue Aptech. All Right Reserved. ");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 7, 0);
+        pnlInformation.add(lblCopyright, gridBagConstraints);
+
+        lblMadeBy.setText("ChildCare Management System made by FriendShip team.");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.WEST;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 7, 0);
+        pnlInformation.add(lblMadeBy, gridBagConstraints);
+
+        pnlMember.setLayout(new java.awt.GridBagLayout());
+
+        lblTeam.setText("FriendShip team : ");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 5, 10);
+        pnlMember.add(lblTeam, gridBagConstraints);
+
+        lblMember1.setText("Dang Van Thanh");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 5, 0);
+        pnlMember.add(lblMember1, gridBagConstraints);
+
+        lblMember2.setText("Le Hoang Phong");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 5, 0);
+        pnlMember.add(lblMember2, gridBagConstraints);
+
+        lblMember3.setText("Nguyen Dinh Minh");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        gridBagConstraints.insets = new java.awt.Insets(0, 0, 5, 0);
+        pnlMember.add(lblMember3, gridBagConstraints);
+
+        lblMember4.setText("Le Cong Duc");
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        pnlMember.add(lblMember4, gridBagConstraints);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        pnlInformation.add(pnlMember, gridBagConstraints);
+
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.fill = java.awt.GridBagConstraints.BOTH;
+        pnlContainer.add(pnlInformation, gridBagConstraints);
+
+        getContentPane().add(pnlContainer, java.awt.BorderLayout.CENTER);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -66,6 +178,20 @@ public class AboutDlg extends javax.swing.JDialog {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel lblCopyright;
+    private javax.swing.JLabel lblMadeBy;
+    private javax.swing.JLabel lblMember1;
+    private javax.swing.JLabel lblMember2;
+    private javax.swing.JLabel lblMember3;
+    private javax.swing.JLabel lblMember4;
+    private javax.swing.JLabel lblTeam;
+    private javax.swing.JPanel pnlContainer;
+    private javax.swing.JPanel pnlInformation;
+    private javax.swing.JPanel pnlMember;
+    private javax.swing.JPanel pnlSystem;
     // End of variables declaration//GEN-END:variables
 
 }
